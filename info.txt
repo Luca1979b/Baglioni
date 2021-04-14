@@ -1,0 +1,72 @@
+nel file xls di teams qual'è la chiave ?   fotografia dati ogni 90g
+nel file xls di teams bisogna aggiungere una data di competenza ?   si la aggiungono loro nel tracciato file (se non è possibile farlo dal nome file)
+che tipo di analisi vanno fatte in pbi ?   analisi base delle fotografie x la fase 1 (- analisi delta e saldi fase 2)
+il dato sembra un saldo aggiornato all'ultima data disponibile è così ? si
+
+hanno già tutto lato azure o bisogna fare acquisto di altre funzionalità ?
+
+quanti utenti ? (4-5)
+
+
+vogliono fotografare il dato ogni 90gg della situazione teams
+caricare il file ogni 90g e storicizzarlo
+aggiungeranno una colonna nel tracciato con data di competenza x consentire la gestione corretta dello storico
+
+loro hanno una instanza sql e azure data lake (da verificare via call tecnica)
+sembra mancare la parte di azure data factory
+
+lato etl [3g]
+lato pbi [3g]
+
+
+--budget IT
+
+utetnti 3-4
+
+hanno ancora il vecchio db da cui è possibile recuperare il codice
+il file sorgente rimane lo stesso cambia solo nel primo foglio la colonna D del budget (viene inserito anche il valore dell'anno)
+
+integrare tutto su azure
+
+
+
+DUBBI
+costi azure data factory
+sql db o sql managed instance ?
+supporto a stored procedure ?
+
+per stimare costi budget-it bisogna verificare quanto realizzato sul vecchio ambiente 
+e da li capire quali funzioni possono essere un problema lato azure
+
+
+
+
+
+
+
+-call 18022021
+
+--hanno solo sql db
+--verificare connessione da ms
+--verificare se è possiible x loro generare automaticamente file teams
+--inviare specifiche tecniche per vm baglioni con sql ms
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
